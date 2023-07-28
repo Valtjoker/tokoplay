@@ -14,7 +14,7 @@ database.on("error", (error) => {
   console.log(error);
 });
 database.once("connected", () => {
-  console.log("connected");
+  console.log("connected to database");
 });
 
 app.use(cors());
